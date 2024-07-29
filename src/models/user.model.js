@@ -1,4 +1,5 @@
 import mongoose, { Schema, model } from "mongoose";
+import {v2 as cloudinary} from 'cloudinary';
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
